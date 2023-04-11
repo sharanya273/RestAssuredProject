@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-11T16:42:26 AEST" name="Suite" finished-at="2023-04-11T16:42:36 AEST" duration-ms="10316">
+    <groups>
+    </groups>
+    <test started-at="2023-04-11T16:42:26 AEST" name="Test" finished-at="2023-04-11T16:42:36 AEST" duration-ms="10316">
+      <class name="ReqresTestngAPIs.HTTPRequests">
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@57cf54e1]" started-at="2023-04-11T16:42:30 AEST" name="createUser" data-provider="dataExtractor" finished-at="2023-04-11T16:42:31 AEST" duration-ms="1476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paul@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is a test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@57cf54e1]" started-at="2023-04-11T16:42:31 AEST" name="createUser" data-provider="dataExtractor" finished-at="2023-04-11T16:42:32 AEST" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[max]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paul@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is a test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@57cf54e1]" started-at="2023-04-11T16:42:32 AEST" name="createUser" data-provider="dataExtractor" finished-at="2023-04-11T16:42:33 AEST" duration-ms="707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sorav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paul@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is a test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@57cf54e1]" started-at="2023-04-11T16:42:33 AEST" name="createUser" data-provider="dataExtractor" finished-at="2023-04-11T16:42:33 AEST" duration-ms="711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jhon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paul@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is a test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- ReqresTestngAPIs.HTTPRequests -->
+      <class name="Utility.DataExtractor">
+        <test-method signature="CreateCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Utility.DataExtractor@5b03b9fe]" started-at="2023-04-11T16:42:34 AEST" name="CreateCustomer" data-provider="dataExtractor" finished-at="2023-04-11T16:42:34 AEST" duration-ms="704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paul@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is a test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method signature="CreateCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Utility.DataExtractor@5b03b9fe]" started-at="2023-04-11T16:42:34 AEST" name="CreateCustomer" data-provider="dataExtractor" finished-at="2023-04-11T16:42:35 AEST" duration-ms="594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[max]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paul@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is a test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method signature="CreateCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Utility.DataExtractor@5b03b9fe]" started-at="2023-04-11T16:42:35 AEST" name="CreateCustomer" data-provider="dataExtractor" finished-at="2023-04-11T16:42:35 AEST" duration-ms="545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sorav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paul@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is a test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method signature="CreateCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Utility.DataExtractor@5b03b9fe]" started-at="2023-04-11T16:42:35 AEST" name="CreateCustomer" data-provider="dataExtractor" finished-at="2023-04-11T16:42:36 AEST" duration-ms="573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jhon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paul@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is a test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+      </class> <!-- Utility.DataExtractor -->
+      <class name="ReqresTestngAPIs.HTTPRequests2">
+        <test-method signature="createUser()[pri:2, instance:ReqresTestngAPIs.HTTPRequests2@58d75e99]" started-at="2023-04-11T16:42:26 AEST" name="createUser" finished-at="2023-04-11T16:42:29 AEST" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- ReqresTestngAPIs.HTTPRequests2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
