@@ -3,6 +3,7 @@ package ReqresTestngAPIs;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import org.json.JSONObject;
 import org.testng.annotations.Test;

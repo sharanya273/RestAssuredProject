@@ -5,7 +5,7 @@ import java.io.File;
 
 import io.restassured.response.Response;
 
-public class CreateCustomers {
+public class CreateCustomer {
 	
 
 	public static void main(String[] args) {

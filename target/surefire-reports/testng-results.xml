@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12506" started-at="2023-04-12T12:11:34Z" finished-at="2023-04-12T12:11:46Z">
+  <suite started-at="2023-04-14T05:50:52Z" name="Suite" finished-at="2023-04-14T05:51:04Z" duration-ms="11928">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12506" started-at="2023-04-12T12:11:34Z" finished-at="2023-04-12T12:11:46Z">
+    <test started-at="2023-04-14T05:50:52Z" name="Test" finished-at="2023-04-14T05:51:04Z" duration-ms="11928">
+      <class name="StripeAPIs.CreateCustomers2">
+        <test-method signature="CreateCustomers()[pri:0, instance:StripeAPIs.CreateCustomers2@20f5281c]" started-at="2023-04-14T05:51:02Z" name="CreateCustomers" finished-at="2023-04-14T05:51:02Z" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomers -->
+      </class> <!-- StripeAPIs.CreateCustomers2 -->
       <class name="ReqresTestngAPIs.HTTPRequests">
-        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@1b68b9a4]" name="createUser" duration-ms="5117" started-at="2023-04-12T12:11:35Z" data-provider="dataExtractor" finished-at="2023-04-12T12:11:41Z">
+        <test-method signature="createUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@7c214cc0]" started-at="2023-04-14T05:50:53Z" name="createUser" data-provider="dataExtractor" finished-at="2023-04-14T05:50:57Z" duration-ms="3537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@1b68b9a4]" name="createUser" duration-ms="923" started-at="2023-04-12T12:11:41Z" data-provider="dataExtractor" finished-at="2023-04-12T12:11:41Z">
+        <test-method signature="createUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@7c214cc0]" started-at="2023-04-14T05:50:57Z" name="createUser" data-provider="dataExtractor" finished-at="2023-04-14T05:50:57Z" duration-ms="716" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@1b68b9a4]" name="createUser" duration-ms="799" started-at="2023-04-12T12:11:41Z" data-provider="dataExtractor" finished-at="2023-04-12T12:11:42Z">
+        <test-method signature="createUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@7c214cc0]" started-at="2023-04-14T05:50:57Z" name="createUser" data-provider="dataExtractor" finished-at="2023-04-14T05:50:58Z" duration-ms="692" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@1b68b9a4]" name="createUser" duration-ms="741" started-at="2023-04-12T12:11:42Z" data-provider="dataExtractor" finished-at="2023-04-12T12:11:43Z">
+        <test-method signature="createUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ReqresTestngAPIs.HTTPRequests@7c214cc0]" started-at="2023-04-14T05:50:58Z" name="createUser" data-provider="dataExtractor" finished-at="2023-04-14T05:50:59Z" duration-ms="750" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,8 +98,14 @@
           </reporter-output>
         </test-method> <!-- createUser -->
       </class> <!-- ReqresTestngAPIs.HTTPRequests -->
+      <class name="StripeTwo.RetriveCustomers2">
+        <test-method signature="getAllCustomers()[pri:0, instance:StripeTwo.RetriveCustomers2@5b67bb7e]" started-at="2023-04-14T05:50:59Z" name="getAllCustomers" finished-at="2023-04-14T05:51:00Z" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCustomers -->
+      </class> <!-- StripeTwo.RetriveCustomers2 -->
       <class name="Utility.DataExtractor">
-        <test-method status="PASS" signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Utility.DataExtractor@4f9a3314]" name="CreateCustomer" duration-ms="915" started-at="2023-04-12T12:11:43Z" data-provider="dataExtractor" finished-at="2023-04-12T12:11:44Z">
+        <test-method signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Utility.DataExtractor@609db546]" started-at="2023-04-14T05:51:00Z" name="CreateCustomer" data-provider="dataExtractor" finished-at="2023-04-14T05:51:00Z" duration-ms="504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCustomer -->
-        <test-method status="PASS" signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Utility.DataExtractor@4f9a3314]" name="CreateCustomer" duration-ms="527" started-at="2023-04-12T12:11:44Z" data-provider="dataExtractor" finished-at="2023-04-12T12:11:45Z">
+        <test-method signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Utility.DataExtractor@609db546]" started-at="2023-04-14T05:51:00Z" name="CreateCustomer" data-provider="dataExtractor" finished-at="2023-04-14T05:51:00Z" duration-ms="405" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCustomer -->
-        <test-method status="PASS" signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Utility.DataExtractor@4f9a3314]" name="CreateCustomer" duration-ms="510" started-at="2023-04-12T12:11:45Z" data-provider="dataExtractor" finished-at="2023-04-12T12:11:45Z">
+        <test-method signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Utility.DataExtractor@609db546]" started-at="2023-04-14T05:51:00Z" name="CreateCustomer" data-provider="dataExtractor" finished-at="2023-04-14T05:51:01Z" duration-ms="618" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,7 +168,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCustomer -->
-        <test-method status="PASS" signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Utility.DataExtractor@4f9a3314]" name="CreateCustomer" duration-ms="464" started-at="2023-04-12T12:11:45Z" data-provider="dataExtractor" finished-at="2023-04-12T12:11:46Z">
+        <test-method signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Utility.DataExtractor@609db546]" started-at="2023-04-14T05:51:01Z" name="CreateCustomer" data-provider="dataExtractor" finished-at="2023-04-14T05:51:02Z" duration-ms="420" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,11 +191,23 @@
         </test-method> <!-- CreateCustomer -->
       </class> <!-- Utility.DataExtractor -->
       <class name="ReqresTestngAPIs.HTTPRequests2">
-        <test-method status="PASS" signature="createUser()[pri:2, instance:ReqresTestngAPIs.HTTPRequests2@64d2d351]" name="createUser" duration-ms="694" started-at="2023-04-12T12:11:46Z" finished-at="2023-04-12T12:11:46Z">
+        <test-method signature="createUser()[pri:2, instance:ReqresTestngAPIs.HTTPRequests2@59e32960]" started-at="2023-04-14T05:51:03Z" name="createUser" finished-at="2023-04-14T05:51:04Z" duration-ms="704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
       </class> <!-- ReqresTestngAPIs.HTTPRequests2 -->
+      <class name="StripeAPIs.RetriveCustomers2">
+        <test-method signature="getAllCustomers()[pri:0, instance:StripeAPIs.RetriveCustomers2@301eda63]" started-at="2023-04-14T05:51:03Z" name="getAllCustomers" finished-at="2023-04-14T05:51:03Z" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCustomers -->
+      </class> <!-- StripeAPIs.RetriveCustomers2 -->
+      <class name="StripeTwo.CreateCustomers2">
+        <test-method signature="CreateCustomers()[pri:0, instance:StripeTwo.CreateCustomers2@56c4278e]" started-at="2023-04-14T05:51:02Z" name="CreateCustomers" finished-at="2023-04-14T05:51:03Z" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomers -->
+      </class> <!-- StripeTwo.CreateCustomers2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

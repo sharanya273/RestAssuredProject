@@ -5,7 +5,10 @@
     <classes>
       <class name="ReqresTestngAPIs.HTTPRequests2"/>
       <class name="ReqresTestngAPIs.HTTPRequests"/>
-      <class name="Utility.DataExtractor"/>
+      <class name="StripeTwo.RetriveCustomers2"/>
+      <class name="StripeTwo.CreateCustomers2"/>
+      <class name="StripeAPIs.RetriveCustomers2"/>
+      <class name="StripeAPIs.CreateCustomers2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
